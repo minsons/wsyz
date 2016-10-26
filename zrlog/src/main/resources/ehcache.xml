@@ -1,0 +1,12 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://www.ehcache.org/ehcache.xsd">
+    <diskStore path="java.io.tmpdir"/>
+    <cache name="/post/initData"
+           maxElementsInMemory="10000"
+           timeToIdleSeconds="300"
+           eternal="false"
+           overflowToDisk="true"
+           timeToLiveSeconds="120"
+           diskPersistent="true"
+            />
+</ehcache>
